@@ -1,0 +1,13 @@
+{
+    "Name": "song name", 
+    "Instruments": ["Guitar", "Bass", "Keys, Drums"], 
+    "Favorite": false, 
+    "Info": {
+        "Duration": "28 beats", 
+        "Author": "Kaitlyn", 
+        "Tempo": "120 BPM",
+        "TimeSig": "4/4", 
+        "Key": "C Major", 
+        "Date": "2024-08-07"
+    }
+}

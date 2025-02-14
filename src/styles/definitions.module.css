@@ -1,0 +1,79 @@
+/*
+ * TunePad
+ * Northwestern University
+ * michael-horn@northwestern.edu
+ *
+ * This project was funded by the National Science Foundation (grant DRL-1612619).
+ * Any opinions, findings and conclusions or recommendations expressed in this
+ * material are those of the author(s) and do not necessarily reflect the views
+ * of the National Science Foundation (NSF).
+ */
+:root {
+    --error-red: #da575d;
+    --error-red-bg: #f9e4e5;
+    --fail-red: #da575d;
+    --fail-red-bg: #f9e4e5;
+    --info-blue: #4b90d7;
+    --pass-green: green;
+    --pass-green-bg: #ded;
+    --warn-yellow: orange;
+    --warn-yellow-bg: #fed;
+    --output-badge-color: #87c44e;
+    --error-badge-color: #da575d;
+    --warn-badge-color: orange;
+    --fail-badge-color: #da575d;
+    --pass-badge-color: green;
+    --piano-color: #2f9aef;
+    --guitar-color: #f0c229;
+    --marimba-color: #f6843f;
+    --sequencer-color: #f6843f;
+    --bass-color: #ec5eb2;
+    --drum-color: #86c44e;
+    --sound-color: lightseagreen;
+    --text-color: #30acac;
+    --definitions-color: #996dd9;
+    --cell-header-bg-color: #2e303f;
+}
+
+.gadget-icon {
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 1em 0 0;
+    color: transparent;
+    padding-left: 3px;
+    padding-top: 1px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.guitar.gadget-icon {
+    background-color: var(--guitar-color);
+    background-image: url('../images/instruments/bass.svg');
+}
+.bass.gadget-icon {
+    background-color: var(--bass-color);
+    background-image: url('../images/instruments/guitar.svg');
+}
+.marimba.gadget-icon {
+    background-color: var(--marimba-color);
+    background-image: url('../images/instruments/marimba.svg');
+}
+.piano.gadget-icon {
+    background-color: var(--piano-color);
+    background-image: url('../images/instruments/drums.svg');
+}
+.drums.gadget-icon {
+    background-color: var(--drum-color);
+    background-image: url('../images/instruments/drumkit.svg');
+}
+.definitions.gadget-icon {
+    background-color: var(--definitions-color);
+    background-image: url('../images/instruments/definitions.svg');
+}
+.gadget-icon.sound {
+    background-color: var(--sound-color);
+    background-image: url('../images/instruments/sampler.svg');
+}
+
